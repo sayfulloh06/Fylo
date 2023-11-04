@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1B2330;
+    font-family: sans-serif;
+}
+
+img {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-wrap {
+    padding: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-ul {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+}
+
+.header-link {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-1-wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    flex-wrap: wrap;
+}
+
+.section-1-img {
+    margin-top: 72px;
+    margin-bottom: 36px;
+    width: 720px;
+    height: 534px;
+}
+
+.section-1-title {
+    margin-bottom: 32px;
+    width: 734px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.section-1-text {
+    margin-bottom: 32px;
+    width: 589px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-1-btn {
+    padding: 19px 95px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(152deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    border-radius: 50px;
+    border: none;
+}
+
+.section-2-wrap {
+    margin: 0 auto;
+    margin-top: 158px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-ul {
+    margin-bottom: 136px;
+    width: 880px;
+    height: 508px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-2-li {
+    width: 370px;
+    height: 215px;
+    text-align: center;
+}
+
+.section-2-li-2 {
+    margin-bottom: 78px;
+}
+
+.section-3-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-wrap div {
+    color: #ffffff;
+}
+
+.section-3-wrap h2 {
+    width: 506px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.section-3-text {
+    width: 563px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-3-text-1 {
+    width: 563px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-3-wrap h2 {
+    margin-bottom: 19px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.section-3-text {
+    margin-bottom: 16px;
+    width: 555px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-3-wrap a {
+    margin-top: 24px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-3-text-1 {
+    color: #62E0D9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-4-list {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4-item {
+    color: #FFF;
+    padding: 40px 26px 26px 26px;
+    width: 360px;
+    height: 200px;
+    border-radius: 3.933px;
+    background: #202A3C;
+    box-shadow: 5px 5px 8px 0px rgba(56, 56, 56, 0.10);
+}
+
+.section-4-box {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-4-box img {
+    width: 24px;
+    height: 24px;
+}
+
+.section-4-box h6 {
+    margin-bottom: 4px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.section-4-box p {
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .header-wrap {}
+
+    .header-img {
+        width: 80px;
+        height: 24px;
+    }
+
+    .header-ul {
+        gap: 24px;
+    }
+
+    .header-link {
+        font-size: 12px;
+    }
+
+    .section-1-img {
+        margin-top: 48px;
+        margin-bottom: 33px;
+        width: 304px;
+        height: 225px;
+    }
+
+    .section-1-title {
+        margin-bottom: 15px;
+        width: 320px;
+        font-size: 24px;
+    }
+
+    .section-1-text {
+        margin-bottom: 32px;
+        width: 296px;
+        font-size: 14px;
+    }
+}
